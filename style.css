@@ -1,0 +1,318 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* color: rgb(165, 162, 162); */
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 3% 8%;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+.left h4 {
+    font-size: 25px;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.backgroundimg{
+    background-image: url(7487387aa88d90a7430e15474817fc35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45%;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+.backgroundimg button {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.895);
+    border-radius: 10px;
+    font-size: 15px;
+    /* padding: 10%; */
+    margin-top: 13%;
+    margin-left: 4%;
+}
+
+.content {
+    margin-top: 80px;
+    /* background-color: rgb(175, 170, 170); */
+    height: 67%;
+    border-radius: 20px;
+    display: flex;
+    
+}
+.leftcont{
+    background-color: rgb(175, 170, 170);
+    /* margin-left: 4%; */
+    width: 55%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 3%;
+}
+.leftcont h4 {
+    font-size: 28px;
+    
+}
+.aa{
+    gap: 10%;
+}
+.aa input {
+    /* margin-left: 20px; */
+    width: 47%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    /* width: 40px; */
+    height: 35px;
+    margin-top: 20px;
+}
+
+.aa textarea {
+    width: 96%;
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.pp{
+    margin-left: 15px;
+}
+
+.aa button {
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 17, 0);
+    margin-top: 10px;
+}
+.rightcont {
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+    margin-left: 15px;
+    padding: 2%;
+}
+
+.info h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.maps{
+    background-image: url(txxQT.png);
+    margin-top: 25px;
+    height: 58%;
+    width: 116%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* PAGE 2 */
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    padding: 3% 8%;
+}
+.div1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 15%;
+    /* border-radius: 20px; */
+    /* background-color: yellow; */
+}
+.half{
+    height: 35%;
+    width: 25%;
+    background-color: rgb(255, 17, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 3%;
+}
+
+.img{
+    height: 35%;
+    width: 75%;
+    background-color: purple;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(sofa-buying-guide-2048px-burrow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position : center; */
+}
+
+.half h4 {
+    font-size: 25px;
+    color: white;
+    line-height: 20px;
+}
+
+.half button {
+    height: 30px;
+    width: 65%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.no{
+    margin-top: -28%;
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1 h3{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.p1 {
+    margin-left: 30px;
+}
+.p2 h3{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.p3 h3{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.p4 h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.p5 h3{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.div2 {
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 2%;
+    margin-top: -3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a1 {
+    height: 105%;
+    width: 17%;
+    background-color: yellow;
+    border-radius: 20px;
+    background-image: url(086ebadc50d6cf34ad1aa800afb7b8bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a2 {
+    height: 105%;
+    width: 17%;
+    background-color: yellow;
+    border-radius: 20px;
+    background-image: url(a391eeacd1cf01c3f38677bcf273c421.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a3 {
+    height: 105%;
+    width: 17%;
+    background-color: rgb(255, 17, 0);
+    border-radius: 20px;
+    /* background-image: url(b1125d91ad238866f0d53e4c900fa0de.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+    padding: 1%;
+    color: white;
+    line-height: 25px;
+}
+
+.a3 button {
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.a4 {
+    height: 105%;
+    width: 17%;
+    background-color: yellow;
+    border-radius: 20px;
+    background-image: url(c2c8fc621f4d33402bbd137488235832.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a5 {
+    height: 105%;
+    width: 17%;
+    background-color: yellow;
+    border-radius: 20px;
+    background-image: url(f854bba832bebfb6db45fd23a4ccb788.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page3 {
+    margin-top: 12%;
+    height: 35%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 2% 10%;
+    border-top: 1px solid black;
+}
+.foot{
+    height: 110%;
+    width: 100%;
+    /* background-color: green; */
+    /* justify-content: space-between */
+}
+
+.leftfoot{
+    /* background-color: yellow; */
+    width: 100%;
+    height:90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1 h4{
+    font-size: 17px;
+    /* font-weight: 400; */
+
+}
+.c1 li{
+    margin-top: 10px;
+    list-style: none;
+}
+
